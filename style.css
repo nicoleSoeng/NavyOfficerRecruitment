@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+.logoText {
+  font-weight: normal;
+  font-size: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #222;
+}
+.logoText:hover {
+  text-decoration: none;
+  color: #222;
+}
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+.dropdown-menu {
+  background-color: #f8f9fa;
+  border: none;
+}
+.dropdown-item:hover {
+  background-color: #eceaea;
+}
+/* .carousel {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(17, 17, 17, 0.1) 100%), url("/images/heroBG.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+} */
+/* .carousel-inner img {
+  width: 0;
+  height: calc(100vh - 80px);
+} */
+.carousel-inner img {
+  width: 100%;
+  object-fit: cover;
+  height: calc(100vh - 80px);
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+  padding-bottom: 1rem;
+}
+
+.carousel-caption h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px 10px #000;
+}
+
+.btn-outline-light {
+  background-color: white;
+  color: #000;
+}
+
+.btn-outline-light:hover {
+  background-color: rgb(211, 179, 0);
+}
+
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;;
+}
+
+.padding {
+  padding-bottom: 2rem;;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.fade-in-bottom {
+    -moz-animation: fadeInBottom 1s;
+    -o-animation: fadeInBottom 1s;
+    -ms-animation: fadeInBottom 1s;
+    animation: fadeInBottom 1s;
+    animation: fadeInBottom 1s;
+}
+@keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-top {
+  -moz-animation: fadeInTop 1s;
+  -o-animation: fadeInTop 1s;
+  -ms-animation: fadeInTop 1s;
+  animation: fadeInTop 1s;
+  animation: fadeInTop 1s;
+}
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+.fade-in-left {
+  -webkit-animation: fadeInLeft 1s;
+  -moz-animation: fadeInLeft 1s;
+  -o-animation: fadeInLeft 1s;
+  -ms-animation: fadeInLeft 1s;
+  animation: fadeInLeft 1s;
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.fade-in {
+  opacity: .2;
+}
+
+.fade-in.appear {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.benefits p {
+  margin: auto 80px;
+  text-align: center;
+}
+
+.fa-solid {
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+footer a {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-instagram {
+  color: #517fa8;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+  color: #727272;
+}
+
+footer {
+  background-color: #d5d5d5;
+  color: #2c2c2c;
+  padding-top: 20px;
+}
+footer img {
+  float: left;
+}
+hr.light {
+  border-top: 1px solid #3f3f3f;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+
+/*---About Page--*/
+.aboutPage {
+  margin: 50px 0;
+}
+
+#profileImg {
+  display: block;
+  margin: 10px auto;
+}
+
+.profileText {
+  max-width: 800px;
+}
+
+/*---Contact Page--*/
+.contactPage {
+  margin: 50px 20px;
+}
+
+/*--Forms Page--*/
+.mainContent {
+  height: 550px;
+}
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .carousel-caption h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+  }
+  }
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 45%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 3rem;
+  }
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+
+  .display-4 {
+    font-size: 2rem;
+  }
+
+  .fa-solid {
+    font-size: 3rem;
+  }
+
+  #profileImg {
+    clear: both;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption {
+    top: 40%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 2.5rem;
+  }
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 4px 8px;
+  }
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: linear-gradient(to bottom, rgba(103, 139, 173, 0.3) 0%, rgba(110, 154, 196, 0.3) 100%), url('img/navyBattleships.jpg');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
