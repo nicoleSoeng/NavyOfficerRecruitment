@@ -228,15 +228,32 @@ hr.light {
 #profileImg {
   display: block;
   margin: 10px auto;
+  border-radius: 5%;
 }
 
 .profileText {
   max-width: 800px;
+  margin: 0px;
 }
+
+.profileText p {
+  line-height: 1.7em;
+}
+
 
 /*---Contact Page--*/
 .contactPage {
   margin: 50px 20px;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactType {
+  margin-right: 50px;
+  font-weight: 500;
 }
 
 /*--Forms Page--*/
@@ -255,6 +272,12 @@ hr.light {
     font-size: 4rem;
     text-transform: uppercase;
     text-shadow: 1px 1px 15px #000;
+  }
+  .profileText h2 {
+    text-align: center;
+  }
+  .profileText {
+    margin: 10px 20px;
   }
   }
 @media (max-width: 768px) {
@@ -281,6 +304,8 @@ hr.light {
   #profileImg {
     clear: both;
   }
+
+
 }
 @media (max-width: 576px) {
   .carousel-caption {
